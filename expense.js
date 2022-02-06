@@ -6,10 +6,6 @@ const addItem = document.querySelector('#add_Item');
 const table = document.querySelector('table');
 const input = document.querySelectorAll('input');
 
-function inputLengths() {
-    return input.value.length;
-}
-
 function expenseTracker() {
     let newTr = document.createElement('tr');
     table.appendChild(newTr);
@@ -39,6 +35,7 @@ function expenseTracker() {
     dBtn.addEventListener('click', deleteRow);
 
 }
+
 
 addItem.addEventListener('click', expenseTracker);
 
