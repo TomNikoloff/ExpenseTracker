@@ -1,0 +1,78 @@
+
+.container{ 
+    width: 60%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 3rem;
+    color: purple;
+}
+
+.inputLable {
+    font-size: 1.75rem;
+}
+
+input {
+    padding: 10px;
+}
+
+input[type=date] {
+    padding: 8px;
+}
+
+.inputName {
+    width: 89.5%;
+    margin-bottom: 20px;
+}
+
+.inputOther {
+    width: 39.2%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin-top: 20px;
+    border: black 3px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: purple;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: purple;
+    transition: 1s ease-in-out;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    background-color: lightgrey;
+}
+
+.delete {
+    display: none;
+}
