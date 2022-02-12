@@ -76,6 +76,20 @@ td {
     display: none;
 }
 
+.dBtn {
+    display: block;
+    border: #1e242c 2px solid;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.dBtn:hover {
+    background-color: #1e242c;
+    transition: 0.5s ease;
+    color: #8c52ff;
+}
+
 .off_White {
     border-top: 1px solid #E6E8E9;
     background-color: #f8fafd;

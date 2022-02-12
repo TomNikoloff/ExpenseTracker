@@ -25,6 +25,7 @@ function expenseTracker() {
     let dTd = document.createElement('td');
     let dBtn = document.createElement('button');
     dBtn.appendChild(document.createTextNode('X'));
+    dBtn.classList.add('dBtn');
     dTd.appendChild(dBtn);
     newTr.appendChild(dTd);
 
