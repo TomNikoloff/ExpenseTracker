@@ -6,6 +6,17 @@ body {
     font-family: "europa", sans-serif;
   }
 
+:root{
+    --pseudo-color: #8c52ff;
+    }
+
+.rotate:hover
+{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
 .title {
     color: #252934;
     font-size: 4rem;
@@ -13,7 +24,7 @@ body {
 
 .subtitle {
     font-size: 3rem;
-    color: #8c52ff;
+    color: var(--pseudo-color);
 }
 
 .inputLable {
@@ -25,7 +36,7 @@ body {
 }
 
 .button:hover {
-    color: #8c52ff;
+    color: var(--pseudo-color);
 }
 
 .btn_Div {
@@ -82,7 +93,7 @@ td {
 .dBtn:hover {
     background-color: #1e242c;
     transition: 0.5s ease;
-    color: #8c52ff;
+    color: var(--pseudo-color);
 }
 
 .off_White {
