@@ -24,11 +24,6 @@ body {
     margin-bottom: 20px;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 .button:hover {
     color: #8c52ff;
 }
